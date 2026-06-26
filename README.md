@@ -8,7 +8,7 @@
 
 ```yaml
 - name: 发送通知
-  uses: jiangood/qq-email-action@v1
+  uses: jiangood/qq-email-action@v2
   with:
     recipient-email: 'boss@qq.com'
     sender-email: 'me@qq.com'
@@ -22,7 +22,7 @@
 
 ```yaml
 - name: 发送报告
-  uses: jiangood/qq-email-action@v1
+  uses: jiangood/qq-email-action@v2
   with:
     recipient-email: 'boss@qq.com'
     sender-email: 'me@qq.com'
